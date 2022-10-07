@@ -16,7 +16,7 @@ if (localStorage.length > 0) {
 
 addTask.addEventListener("click", () => {
   // if the input empty stop the function
-  if (!/\w/.test(textInput.value)) {
+  if (textInput.value === "") {
     return;
   }
 
