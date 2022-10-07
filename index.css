@@ -22,7 +22,7 @@ h1 {
 .add-task-container [type="text"],
 .add-task-container .add-task,
 .output .delete {
-  padding: 10px;
+  padding: 8px;
   border: 0;
   border-radius: 4px;
 }
